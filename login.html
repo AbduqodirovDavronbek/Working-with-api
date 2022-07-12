@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form class="form position-absolute top-50 start-50 translate-middle">
+      <img class="mb-3" src="img/login_icon.png" alt="" />
+      <div class="mb-3">
+        <input
+          class="username-input"
+          type="text"
+          placeholder="Username"
+          required
+          name="username"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          class="password-input"
+          type="password"
+          placeholder="Password"
+          required
+          name="password"
+        />
+      </div>
+
+      <button class="form-button btn btn-light" type="submit">LOGIN</button>
+
+      <p class="desc">Forgot password?</p>
+    </form>
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>
